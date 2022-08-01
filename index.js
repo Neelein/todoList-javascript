@@ -7,6 +7,8 @@ todoListAddItems.addEventListener('submit',(e) => {
 
     const itemName = todoListInput.value
 
+    todoListInput.value = ''
+
     if(!itemName){
         alert('請輸入今日任務事項')
         return
